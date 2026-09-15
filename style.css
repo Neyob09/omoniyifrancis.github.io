@@ -110,3 +110,25 @@ footer {
         margin-bottom: 0.5rem;
     }
 }
+
+blockquote {
+    margin: 1.2rem 0;
+    padding: 1rem 1.3rem;
+    border-left: 4px solid #17365d;
+    background: #f7f7f7;
+    font-style: italic;
+}
+
+.source {
+    margin-top: -0.7rem;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.evaluation {
+    margin-bottom: 2rem;
+}
+
+.course-list p {
+    margin-bottom: 1.2rem;
+}
