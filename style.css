@@ -132,3 +132,92 @@ blockquote {
 .course-list p {
     margin-bottom: 1.2rem;
 }
+
+/* Teaching Evaluations */
+
+.evaluation-note {
+    color: #666;
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+}
+
+.evaluation-grid {
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(300px, 1fr)
+    );
+    gap: 1.4rem;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.evaluation-card {
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    padding: 1.4rem;
+    background: #fafafa;
+}
+
+.evaluation-card blockquote {
+    margin: 0.7rem 0 1rem 0;
+    padding: 0;
+    border-left: none;
+    background: transparent;
+    font-style: italic;
+}
+
+.evaluation-theme {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 0.85rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    color: #17365d;
+}
+
+.evaluation-source {
+    font-size: 0.88rem;
+    color: #666666;
+    margin-bottom: 0;
+}
+
+.faculty-observations {
+    margin-top: 3rem;
+}
+
+.observation-card {
+    margin: 1.5rem 0;
+    padding: 1.5rem;
+    border-left: 4px solid #17365d;
+    background: #f7f7f7;
+}
+
+.observation-card h4 {
+    margin-top: 0;
+    margin-bottom: 0.2rem;
+    color: #17365d;
+    font-size: 1.15rem;
+}
+
+.observation-meta {
+    margin-top: 0;
+    color: #666666;
+    font-size: 0.9rem;
+}
+
+.observation-card blockquote {
+    margin: 1rem 0;
+    padding-left: 1rem;
+    border-left: 2px solid #999999;
+    background: transparent;
+    font-style: italic;
+}
+
+.evaluation-footer {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #666666;
+    font-style: italic;
+}
