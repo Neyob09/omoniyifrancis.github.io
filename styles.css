@@ -2051,3 +2051,61 @@ header.site-header {
         margin: 1rem auto 0;
     }
 }
+
+/* ==========================================================
+   INNER PAGE HERO
+   ========================================================== */
+
+.page-hero {
+    padding: 2.5rem 0 3.5rem;
+    margin-bottom: 4rem !important;
+
+    border-bottom: 1px solid #e2e7eb;
+}
+
+.page-kicker {
+    margin-bottom: 0.8rem;
+
+    color: #0d5b91;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 0.78rem;
+
+    font-weight: 700;
+
+    letter-spacing: 0.12em;
+
+    text-transform: uppercase;
+}
+
+.page-hero h1 {
+    margin: 0 0 1rem;
+
+    color: #102f4f;
+
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
+    font-size: clamp(
+        2.7rem,
+        5vw,
+        4.2rem
+    );
+
+    line-height: 1.1;
+}
+
+.page-intro {
+    max-width: 780px;
+
+    margin-bottom: 0;
+
+    color: #536371;
+
+    font-size: 1.12rem;
+
+    line-height: 1.8;
+}
