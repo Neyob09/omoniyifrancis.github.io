@@ -441,3 +441,54 @@ blockquote {
     background: #f8f9fb;
     border-radius: 8px;
 }
+
+/* Service & Outreach Page */
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(260px, 1fr)
+    );
+    gap: 1.4rem;
+    margin-top: 1.5rem;
+}
+
+.service-card {
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    padding: 1.4rem;
+    margin: 1.2rem 0;
+    background: #ffffff;
+}
+
+.featured-service {
+    border-left: 4px solid #17365d;
+    background: #f8f9fb;
+}
+
+.service-card h3 {
+    margin-top: 0.3rem;
+    margin-bottom: 0.4rem;
+    color: #17365d;
+}
+
+.service-year {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 0.82rem;
+    font-weight: bold;
+    color: #17365d;
+}
+
+.service-event {
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    font-weight: bold;
+}
+
+.service-organization {
+    margin-top: 0;
+    color: #666666;
+    font-size: 0.95rem;
+}
