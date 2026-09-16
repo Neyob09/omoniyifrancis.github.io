@@ -492,3 +492,107 @@ blockquote {
     color: #666666;
     font-size: 0.95rem;
 }
+
+/* CV Page */
+
+.cv-intro {
+    max-width: 850px;
+}
+
+.cv-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1.6rem;
+}
+
+.primary-button,
+.secondary-button {
+    display: inline-block;
+    padding: 0.7rem 1.2rem;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.primary-button {
+    background: #17365d;
+    color: #ffffff;
+}
+
+.primary-button:hover {
+    opacity: 0.9;
+}
+
+.secondary-button {
+    border: 1px solid #17365d;
+    color: #17365d;
+    background: #ffffff;
+}
+
+.secondary-button:hover {
+    background: #f3f5f8;
+}
+
+.cv-highlight-grid {
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(230px, 1fr)
+    );
+    gap: 1.4rem;
+    margin-top: 1.5rem;
+}
+
+.cv-highlight-card {
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    padding: 1.4rem;
+    background: #ffffff;
+}
+
+.cv-highlight-card h3 {
+    margin-top: 0;
+    color: #17365d;
+}
+
+.cv-timeline {
+    margin-top: 1.5rem;
+}
+
+.cv-timeline-item {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.3rem;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.cv-timeline-item h3 {
+    margin-top: 0;
+    margin-bottom: 0.3rem;
+}
+
+.cv-year {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #17365d;
+}
+
+.cv-download-section {
+    margin-top: 3rem;
+    padding: 1.7rem;
+    background: #f8f9fb;
+    border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+
+    .cv-timeline-item {
+        grid-template-columns: 1fr;
+        gap: 0.2rem;
+    }
+
+}
