@@ -2109,3 +2109,663 @@ header.site-header {
 
     line-height: 1.8;
 }
+
+/* ==========================================================
+   FINAL TEACHING PAGE DESIGN
+   ========================================================== */
+
+.teaching-page-hero {
+    max-width: 950px;
+}
+
+
+.teaching-hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.9rem;
+    margin-top: 2rem;
+}
+
+
+/* TEACHING PRINCIPLES */
+
+.teaching-overview-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.2rem;
+    margin-top: 2rem;
+}
+
+
+.teaching-principle-card {
+    padding: 1.6rem;
+
+    border: 1px solid #e1e6ea;
+    border-radius: 10px;
+
+    background: #ffffff;
+
+    box-shadow:
+        0 5px 18px rgba(0,0,0,0.035);
+}
+
+
+.principle-number {
+    color: #7c96aa;
+
+    font-size: 0.76rem;
+    font-weight: 700;
+
+    letter-spacing: 0.12em;
+}
+
+
+.teaching-principle-card h3 {
+    color: #102f4f;
+
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
+    font-size: 1.25rem;
+
+    margin:
+        0.55rem 0
+        0.8rem;
+}
+
+
+.teaching-principle-card p {
+    color: #596875;
+
+    font-size: 0.94rem;
+
+    margin-bottom: 0;
+}
+
+
+
+/* TWO COLUMN */
+
+.teaching-two-column {
+    display: grid;
+
+    grid-template-columns:
+        1fr 1fr;
+
+    gap: 3rem;
+
+    align-items: start;
+}
+
+
+.teaching-callout {
+    padding: 1.7rem;
+
+    background: #f3f7fa;
+
+    border-left: 4px solid #0d5b91;
+
+    border-radius: 6px;
+}
+
+
+.teaching-callout h3 {
+    margin-top: 0;
+
+    color: #102f4f;
+}
+
+
+
+/* COURSES */
+
+.course-section-header {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: flex-end;
+
+    gap: 2rem;
+
+    margin-top: 2rem;
+    margin-bottom: 1.3rem;
+
+    padding-bottom: 0.8rem;
+
+    border-bottom: 1px solid #dfe5e9;
+}
+
+
+.course-section-header h3 {
+    margin: 0;
+
+    color: #102f4f;
+}
+
+
+.course-section-header p {
+    margin:
+        0.2rem 0 0;
+
+    color: #667684;
+}
+
+
+.course-section-header span {
+    color: #0d5b91;
+
+    font-weight: 700;
+}
+
+
+.teaching-course-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 1.1rem;
+}
+
+
+.teaching-course-card {
+    padding: 1.35rem;
+
+    border: 1px solid #e2e7eb;
+    border-radius: 8px;
+
+    background: #ffffff;
+}
+
+
+.course-code {
+    color: #0d5b91;
+
+    font-size: 0.78rem;
+    font-weight: 700;
+
+    letter-spacing: 0.08em;
+}
+
+
+.teaching-course-card h3 {
+    margin:
+        0.35rem 0
+        0.4rem;
+
+    color: #102f4f;
+
+    font-size: 1.05rem;
+}
+
+
+.teaching-course-card p {
+    color: #697884;
+
+    font-size: 0.88rem;
+
+    margin: 0;
+}
+
+
+.additional-teaching-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap: 1.3rem;
+
+    margin-top: 2rem;
+}
+
+
+.additional-teaching-card {
+    padding: 1.5rem;
+
+    background: #f7f9fb;
+
+    border-radius: 8px;
+}
+
+
+.additional-teaching-card h3 {
+    margin:
+        0.25rem 0
+        0.6rem;
+
+    color: #102f4f;
+}
+
+
+.small-label {
+    margin: 0;
+
+    color: #0d5b91;
+
+    font-size: 0.78rem;
+    font-weight: 700;
+
+    letter-spacing: 0.08em;
+
+    text-transform: uppercase;
+}
+
+
+
+/* TECHNOLOGY */
+
+.section-width {
+    max-width: 800px;
+}
+
+
+.teaching-tech-tags {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 0.7rem;
+
+    margin:
+        1.5rem 0
+        2rem;
+}
+
+
+.teaching-tech-tags span {
+    padding:
+        0.5rem
+        0.85rem;
+
+    border: 1px solid #d3dde4;
+
+    border-radius: 22px;
+
+    background: #f8fafb;
+
+    color: #31516b;
+
+    font-size: 0.87rem;
+
+    font-weight: 600;
+}
+
+
+.innovation-box {
+    max-width: 850px;
+
+    padding: 1.7rem;
+
+    background: #102f4f;
+
+    color: #dce5ec;
+
+    border-radius: 10px;
+}
+
+
+.innovation-box h3 {
+    color: #ffffff;
+
+    margin-top: 0;
+}
+
+
+.innovation-box p {
+    margin-bottom: 0;
+}
+
+
+
+/* AWARDS */
+
+.teaching-awards-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 1.3rem;
+
+    margin-top: 1.5rem;
+}
+
+
+.teaching-award-card {
+    padding: 1.5rem;
+
+    border-top: 3px solid #0d5b91;
+
+    background: #f8fafb;
+}
+
+
+.award-year {
+    color: #0d5b91;
+
+    font-size: 0.82rem;
+
+    font-weight: 700;
+}
+
+
+.teaching-award-card h3 {
+    color: #102f4f;
+
+    margin:
+        0.4rem 0
+        0.5rem;
+}
+
+
+
+/* STUDENT FEEDBACK */
+
+.evaluation-introduction {
+    max-width: 800px;
+
+    color: #5c6975;
+}
+
+
+.teaching-evidence-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap: 1.3rem;
+
+    margin-top: 1.8rem;
+}
+
+
+.teaching-quote-card {
+    display: flex;
+    flex-direction: column;
+
+    padding: 1.6rem;
+
+    border: 1px solid #e0e6ea;
+
+    border-radius: 10px;
+
+    background: #ffffff;
+
+    box-shadow:
+        0 6px 20px
+        rgba(0,0,0,0.035);
+}
+
+
+.quote-theme {
+    margin: 0;
+
+    color: #0d5b91;
+
+    font-size: 0.76rem;
+
+    font-weight: 700;
+
+    letter-spacing: 0.1em;
+
+    text-transform: uppercase;
+}
+
+
+.teaching-quote-card blockquote {
+    flex-grow: 1;
+
+    margin:
+        1rem 0;
+
+    padding: 0;
+
+    border: none;
+
+    background: transparent;
+
+    color: #34495e;
+
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
+    font-size: 1.08rem;
+
+    line-height: 1.7;
+}
+
+
+.quote-source {
+    margin-bottom: 0;
+
+    color: #75828d;
+
+    font-size: 0.83rem;
+}
+
+
+
+/* FACULTY OBSERVATIONS */
+
+.coordinator-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap: 1.4rem;
+
+    margin-top: 1.8rem;
+}
+
+
+.coordinator-card {
+    padding: 1.7rem;
+
+    border: 1px solid #dce3e8;
+
+    border-radius: 10px;
+
+    background: #f8fafb;
+}
+
+
+.coordinator-top {
+    display: flex;
+
+    justify-content: space-between;
+
+    gap: 1rem;
+
+    margin-bottom: 1rem;
+}
+
+
+.coordinator-top h3 {
+    margin:
+        0.25rem 0
+        0;
+
+    color: #102f4f;
+}
+
+
+.coordinator-top p {
+    margin-bottom: 0;
+}
+
+
+.observation-badge {
+    height: fit-content;
+
+    padding:
+        0.35rem
+        0.6rem;
+
+    border-radius: 15px;
+
+    background: #e6eef4;
+
+    color: #31516b;
+
+    font-size: 0.72rem;
+
+    white-space: nowrap;
+}
+
+
+.coordinator-card blockquote {
+    margin:
+        1.2rem 0;
+
+    padding-left: 1rem;
+
+    border-left: 3px solid #0d5b91;
+
+    color: #34495e;
+
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
+    font-style: italic;
+}
+
+
+.evaluation-availability {
+    margin-top: 1.5rem;
+
+    color: #74818b;
+
+    font-size: 0.88rem;
+
+    font-style: italic;
+}
+
+
+
+/* MENTORING */
+
+.teaching-mentoring-section {
+    padding:
+        2rem 0;
+}
+
+
+.mentoring-research-box {
+    padding: 1.7rem;
+
+    border-radius: 10px;
+
+    background: #f2f6f8;
+}
+
+
+.mentoring-research-box h3 {
+    margin-top: 0;
+
+    color: #102f4f;
+}
+
+
+
+/* TEACHING CTA */
+
+.teaching-cta {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 3rem;
+
+    padding: 2.2rem !important;
+
+    background: #edf3f7;
+
+    border-radius: 10px;
+}
+
+
+.teaching-cta h2 {
+    margin-bottom: 0.7rem;
+}
+
+
+.teaching-cta p {
+    max-width: 650px;
+
+    margin-bottom: 0;
+}
+
+
+.teaching-cta-buttons {
+    display: flex;
+
+    flex-shrink: 0;
+
+    gap: 0.8rem;
+}
+
+
+
+/* ==========================================================
+   TEACHING RESPONSIVE
+   ========================================================== */
+
+@media (max-width: 950px) {
+
+    .teaching-overview-grid {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+
+    .teaching-course-grid {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+
+    .teaching-two-column,
+    .coordinator-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+@media (max-width: 650px) {
+
+    .teaching-overview-grid,
+    .teaching-course-grid,
+    .additional-teaching-grid,
+    .teaching-awards-grid,
+    .teaching-evidence-grid {
+        grid-template-columns: 1fr;
+    }
+
+
+    .course-section-header,
+    .teaching-cta,
+    .coordinator-top {
+        flex-direction: column;
+
+        align-items: flex-start;
+    }
+
+
+    .teaching-cta-buttons {
+        flex-wrap: wrap;
+    }
+
+}
