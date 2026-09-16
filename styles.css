@@ -221,3 +221,39 @@ blockquote {
     color: #666666;
     font-style: italic;
 }
+
+/* Research Page */
+
+.research-card {
+    border-left: 4px solid #17365d;
+    background: #f8f9fb;
+    padding: 1.2rem 1.4rem;
+    margin: 1.2rem 0;
+    border-radius: 4px;
+}
+
+.research-card h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.method-grid {
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(240px, 1fr)
+    );
+    gap: 1.4rem;
+    margin-top: 1.5rem;
+}
+
+.method-card {
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    padding: 1.3rem;
+    background: #ffffff;
+}
+
+.method-card h3 {
+    margin-top: 0;
+}
